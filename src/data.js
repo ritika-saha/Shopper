@@ -28,3 +28,89 @@ export const sliderItems=[
         bg:"#f9e6f9",
     }
 ]
+
+export const catagory=[
+    {
+        id:1,
+        img:"https://images.pexels.com/photos/6024195/pexels-photo-6024195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        title:"LOUNGE WEAR"
+    },
+    {
+        id:2,
+        img:"https://images.pexels.com/photos/2363825/pexels-photo-2363825.jpeg?auto=compress&cs=tinysrgb&w=600",
+        title:"DENIM WONDERLAND"
+    },
+    {
+        id:3,
+        img:"https://images.pexels.com/photos/6113297/pexels-photo-6113297.jpeg?auto=compress&cs=tinysrgb&w=600",
+        title:"PARTY WEAR"
+    }
+]
+
+export const PopularProducts=[
+    {
+        id:1,
+        img:"https://www.transparentpng.com/thumb/t-shirt/1wbWcn-t-shirt-transparent-background.png"
+    },
+    {
+        id:2,
+        img:"https://www.pngarts.com/files/3/Jogger-Pant-PNG-Image.png"
+    },
+    {
+        id:3,
+        img:"https://www.freepngimg.com/thumb/dress/31612-1-dress-transparent-picture.png"
+    },
+    {
+        id:4,
+        img:"https://www.pngarts.com/files/2/Warm-Coat-Transparent-Background-PNG.png"
+    },
+    {
+        id:5,
+        img:"https://i.pinimg.com/originals/bf/7c/dc/bf7cdc08dddaa1cba27ef65f7acd1949.png"
+    },
+    {
+        id:6,
+        img:"https://th.bing.com/th/id/R.392caf41458096c0a8476e535b023b99?rik=KOMUpGjDHB2ZXQ&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f6%2fFur-Coat-PNG-Background-Image.png&ehk=OEHeIyy8G6xuXN1YkepaOmE55JeGBWPQXFtS3GNel3E%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        id:7,
+        img:"https://th.bing.com/th/id/R.42341112f227e52c2cfbcaee695e1a45?rik=%2fDgVyeqLqR2oXg&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f4%2fShort-Skirt-PNG-Clipart.png&ehk=DWub%2fZUqjMMUWjS21o93OXpvOdXaziGqwmJgTzn22pI%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        id:8,
+        img:"https://pngimg.com/uploads/sweater/sweater_PNG57.png"
+    },
+    {
+        id:9,
+        img:"https://pngimg.com/uploads/dress/dress_PNG189.png"
+    },
+    {
+        id:10,
+        img:"https://pngimg.com/uploads/converse/converse_PNG47.png"
+    },
+    {
+        id:11,
+        img:"https://th.bing.com/th/id/R.979d51801b6e9495593af81d60e2528e?rik=jFNhxXydfi3O8g&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f1%2fWomen-Shoes-PNG-Image.png&ehk=M9sj7LW%2brAlHPWx70vqxUaG5h8EY2Qv%2bIwCPF3j154A%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        id:12,
+        img:"https://th.bing.com/th/id/R.e87157c0dec3af96280c7a8dfaf68605?rik=belVmo4JAOllrA&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fPurse-Transparent.png&ehk=Dn4mzR7UxdWCmsUwAtqzg04t%2bX3LdoHkIpra2DDDxts%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        id:13,
+        img:"https://freepngimg.com/thumb/backpack/7-2-backpack-png.png"
+    },
+    {
+        id:14,
+        img:"https://th.bing.com/th/id/R.84e1c5bbe8b7fef491a5349852cde13c?rik=CmO0XkjBJVQtig&riu=http%3a%2f%2fpngimg.com%2fuploads%2fcap%2fcap_PNG5670.png&ehk=cfBU8P4B19WkOB9WoEEPKmHFMDvCi2ZvGf4vXmdQ7XA%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        id:15,
+        img:"https://webstockreview.net/images/guy-clipart-blue-shirt-18.png"
+    },
+    {
+        id:16,
+        img:"https://th.bing.com/th/id/R.7df9587620394a918ecc4a09e781b842?rik=l%2bqpus36J96eRg&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fshorts-transparent-background%2fshorts-transparent-background-4.png&ehk=Rj1TZ95ArxwDNAVJssMiZjdh7SJkJe5GJEagi4fL1xM%3d&risl=&pid=ImgRaw&r=0"
+    }
+    
+]
