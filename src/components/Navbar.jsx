@@ -43,7 +43,9 @@ display: flex;
  padding: 10px;
 `
 const Input=styled.input`
-//border: none;
+  border: 0.5px solid #de00de8d;
+  padding: 5px;
+  margin-right: 10px;
 `
 
 const Logo=styled.h1`
