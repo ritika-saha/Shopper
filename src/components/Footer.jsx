@@ -1,4 +1,4 @@
-import { Facebook, Instagram, LocationCity, Mail, Map, Phone, Pinterest, Room, Twitter } from '@mui/icons-material'
+import { Facebook, Instagram, Mail, Phone, Pinterest, Room, Twitter } from '@mui/icons-material'
 import React from 'react'
 import styled from 'styled-components'
 
