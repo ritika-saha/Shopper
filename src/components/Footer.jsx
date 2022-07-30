@@ -27,6 +27,10 @@ const SocialIcon=styled.div`
   color: white;
   cursor: pointer;
   background-color: #de00de;
+  transition: all 0.2s ease-in;
+  &:hover{
+    transform: scale(1.1);
+  }
 
 `
 
@@ -63,6 +67,9 @@ const Contact=styled.div`
   display: flex;
   align-items: center;
   cursor: pointer;
+  &:hover{
+    background-color: #ffdcff;
+  }
 `
 const Pay=styled.img`
   width: 70%;
