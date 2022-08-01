@@ -71,7 +71,7 @@ export default function Navbar() {
       <MenuItem>LogIn</MenuItem>
       <MenuItem>SignUp</MenuItem>
       <MenuItem>
-      <Badge badgeContent={69} color="secondary">
+      <Badge badgeContent={4} color="secondary">
         <ShoppingCart />
       </Badge>
       </MenuItem>
