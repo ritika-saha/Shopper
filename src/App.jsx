@@ -7,6 +7,9 @@ import Signup from './pages/Signup';
 import Login from './pages/Login';
 import Cart from './pages/Cart';
 
+
+//pushed to github
+
 export default function App(){
   return(<Home />)
 }
