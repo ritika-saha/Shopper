@@ -1,3 +1,13 @@
+# Shopper. -An E-Commerce website built with- ReactJs and MaterialUI 
+
+## Preview of Home page -
+
+![Screenshot 2022-08-02 212215](https://user-images.githubusercontent.com/72276256/182418038-e06ea366-607a-4d37-bb01-1d44597d1beb.jpg)
+![Screenshot 2022-08-02 212251](https://user-images.githubusercontent.com/72276256/182418147-1f1514bd-04b3-496e-b3f5-bba6931ed6a5.jpg)
+![Screenshot 2022-08-02 212334](https://user-images.githubusercontent.com/72276256/182418327-bff69e87-064e-4a1b-8f19-63c78f6429d3.jpg)
+![Screenshot 2022-08-02 212408](https://user-images.githubusercontent.com/72276256/182418443-d24fa4cd-0b7b-4d06-916c-389ac91a3ba6.jpg)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
