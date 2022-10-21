@@ -1,4 +1,6 @@
+import { Switch } from "@mui/material"
 import React from "react"
+import { BrowserRouter, Route } from "react-router-dom"
 import Announcement from "../components/Announcement"
 import { Catagories } from "../components/Catagories"
 import Footer from "../components/Footer"
@@ -10,17 +12,16 @@ import Slider from "../components/Slider"
 
 export default function Home(){
   return(
-  <div>
+    <div>
       
-      <Announcement />
-      <Navbar />
-      <Slider />
-      <Catagories />
-      <Products />
-      <Newsletter />
-      <Footer />
-     
-    
-
-  </div>)
+<Announcement />
+<Navbar />
+<Slider />
+<Catagories />
+<Products />
+<Newsletter />
+<Footer />
+</div>
+ )
 }
+

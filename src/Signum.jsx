@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import { BrowserRouter, Route , Routes , Link } from "react-router-dom"
+import Login from './pages/Login'
 
 const Container=styled.div`
     height: 100vh;
@@ -57,7 +59,7 @@ const Button=styled.button`
     transform: scale(1.1);
     }
 `
-export default function Signup() {
+export default function Signum() {
   return (
     <Container>
         <Wrapper>
@@ -74,7 +76,9 @@ export default function Signup() {
                     <b> terms & conditions </b>of services and user data 
                     collection.
                 </Agreement>
-                <Button>Create</Button>
+                <Link to="/home"><Button>Create</Button></Link>
+                
+                <Link to="/login"><Button>or Login ?</Button></Link>
             </Form>
         </Wrapper>
     </Container>

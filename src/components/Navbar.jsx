@@ -2,6 +2,7 @@ import { Search, ShoppingCart } from '@mui/icons-material'
 import React from 'react'
 import styled from 'styled-components'
 import Badge from '@mui/material/Badge'
+import { BrowserRouter, Route , Routes , Link  } from "react-router-dom";
 //import MailIcon from '@mui/icons-material/Mail'
 
 const Container= styled.div`
@@ -66,13 +67,13 @@ export default function Navbar() {
           <Search />
         </SearchContainer>
       </Left>
-      <Centre><Logo>Shopper.</Logo></Centre>
+      <Link to="/home" style={{ textDecoration: 'none' }}><Centre><Logo>Shopper.</Logo></Centre></Link>
       <Right>
-      <MenuItem>LogIn</MenuItem>
-      <MenuItem>SignUp</MenuItem>
+      <Link to="/login" style={{ textDecoration: 'none' }} ><MenuItem>LogIn</MenuItem></Link>
+      <Link to="/" style={{ textDecoration: 'none' }}><MenuItem>SignUp</MenuItem></Link>
       <MenuItem>
       <Badge badgeContent={4} color="secondary">
-        <ShoppingCart />
+       <Link to="/cart"><ShoppingCart /></Link> 
       </Badge>
       </MenuItem>
       </Right> 

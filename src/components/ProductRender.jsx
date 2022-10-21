@@ -1,6 +1,7 @@
 import { ShoppingCartOutlined, SearchOutlined ,FavoriteBorderOutlined} from '@mui/icons-material'
 import React from 'react'
 import styled from 'styled-components'
+import { BrowserRouter, Route , Routes , Link  } from "react-router-dom";
 //import { Badge } from '@mui/material'
 
 const Info=styled.div`
@@ -71,10 +72,10 @@ export const ProductRender = ({item}) => {
         <Image src={item.img} />
         <Info>
             <Icon>
-                <ShoppingCartOutlined/>
+               <Link to="/cart"><ShoppingCartOutlined/></Link> 
             </Icon>
             <Icon>
-                <SearchOutlined/>
+                <Link to="/viewProduct"><SearchOutlined/></Link>
             </Icon>
             <Icon>
                 <FavoriteBorderOutlined/>

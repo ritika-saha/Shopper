@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import Announcement from '../components/Announcement'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import { BrowserRouter, Route , Routes , Link  } from "react-router-dom";
 
 const Container=styled.div``
 const Wrapper=styled.div`
@@ -149,7 +150,7 @@ export default function Cart() {
         <Wrapper>
             <Title>Your Bag !</Title>
             <Top>
-                <TopButton type="notfilled">Continue Shopping</TopButton>
+                <Link to="/productList"><TopButton type="notfilled">Continue Shopping</TopButton></Link>
                 <TopTexts>
                     <TopText>Shopping Bag (4)</TopText>
                     <TopText>Wishlist (9)</TopText>

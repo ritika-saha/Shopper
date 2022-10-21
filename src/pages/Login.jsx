@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import { BrowserRouter, Route , Routes , Link as Link1 } from "react-router-dom";
 
 const Container=styled.div`
     height: 100vh;
@@ -76,10 +76,10 @@ export default function Login() {
                 <Input placeholder="User Name" />
                 <Input placeholder="E-mail" />
                 <Input placeholder="Password" />
-                <Button>Log In</Button>
+                <Link1 to="/home"><Button>Log In</Button></Link1>
                 <LinkContainer>
                 <Link href='' style={{textDecoration:"none",color:"#424242"}}>Forgot Password ?</Link>
-                <Link href='' style={{marginTop:"7px",textDecoration:"none",color:"#424242"}}>Create a New Account</Link>
+                <Link1 to="/" style={{ textDecoration: 'none' }}><Link href='' style={{marginTop:"7px",textDecoration:"none",color:"#424242"}}>Create a New Account</Link></Link1>
                 </LinkContainer>
             </Form>
         </Wrapper>

@@ -5,6 +5,7 @@ import Announcement from '../components/Announcement'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Newsletter from '../components/Newsletter'
+import { BrowserRouter, Route , Routes , Link } from "react-router-dom";
 
 const Container=styled.div``
 const Wrapper=styled.div`
@@ -109,6 +110,8 @@ const Button=styled.button`
 `
 
 
+    
+
 
 
 export default function ViewProduct() {
@@ -153,10 +156,10 @@ export default function ViewProduct() {
                 <AddContainer>
                     <AmmountContainer>
                         <Remove style={{cursor:"pointer"}}/>
-                        <Ammount>1</Ammount>
+                        <Ammount >1</Ammount>
                         <Add style={{cursor:"pointer"}}/>
                     </AmmountContainer>
-                    <Button>ADD TO CART</Button>
+                    <Link to="/cart"><Button>ADD TO CART</Button></Link>
                 </AddContainer>
             </InfoContainer>
         </Wrapper>
