@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Shopper/static/css/main.5bbd1b10.css",
+    "main.js": "/Shopper/static/js/main.90dc7aa9.js",
+    "index.html": "/Shopper/index.html",
+    "main.5bbd1b10.css.map": "/Shopper/static/css/main.5bbd1b10.css.map",
+    "main.90dc7aa9.js.map": "/Shopper/static/js/main.90dc7aa9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bbd1b10.css",
+    "static/js/main.90dc7aa9.js"
+  ]
+}
